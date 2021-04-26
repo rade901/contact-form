@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url(./pozadina.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Contact-title {
+    margin-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    transition: all 3s ease-in-out;
+}
+
+.Contact-title h1 {
+    font-size: 32px;
+    line-height: 10px;
+    color: black;
+}
+
+.Contact-title h2 {
+    font-size: 16px;
+}
+
+form {
+    margin: 50px;
+    transition: all 3s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+input.submit {
+    background: burlywood;
+    border-color: transparent;
+    color: teal;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+input.submit:hover {
+    background-color: rgb(182, 123, 47);
+    cursor: pointer;
+}
